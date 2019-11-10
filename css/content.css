@@ -1,0 +1,95 @@
+.content .hisper {
+  background-image: linear-gradient(
+      to top,
+      rgba(72, 177, 176, 0.5),
+      rgba(25, 64, 174, 0.5)
+    ),
+    url(../img/hisper.png);
+}
+
+.content .hippie {
+  background-image: linear-gradient(
+      to top,
+      rgba(225, 146, 255, 0.5),
+      rgba(126, 49, 192, 0.5)
+    ),
+    url(../img/hippie.png);
+}
+
+.content .card {
+  margin: 0;
+  display: flexbox;
+  flex-direction: column;
+  width: 50%;
+  height: 800px;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-size: 100% 800px;
+}
+
+.hisperLogo {
+  margin-left: 33%;
+  margin-top: 20%;
+}
+
+.hisperLogo .hisperMainText {
+  font-family: "Rancho", cursive;
+  letter-spacing: 6px;
+  font-size: 74.8px;
+  color: #ffffff;
+}
+
+.hisperSubText {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -3px;
+  font-size: 40px;
+  font-weight: 100;
+  font-stretch: ultra-condensed;
+  color: #ffffff;
+  margin-left: 2%;
+}
+.hippieLogo {
+  margin-left: 25%;
+  margin-top: 20%;
+}
+.hippieLogo .hippieMainText {
+  font-family: "Dymaxion Script";
+  letter-spacing: 6px;
+  font-size: 74.8px;
+  color: #ffffff;
+}
+
+.hippieSubText {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -3px;
+  font-size: 40px;
+  font-weight: 100;
+  font-stretch: ultra-condensed;
+  color: #ffffff;
+  margin-left: 15%;
+}
+
+.button {
+  width: 226px;
+  height: 40px;
+  padding: 5px 0 0 0;
+  margin-top: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 25px;
+  font-weight: 300;
+  font-stretch: condensed;
+  color: #ffffff;
+}
+.button.hisperButton {
+  margin-left: 31%;
+}
+
+.button.hippieButton {
+  margin-left: 33%;
+}
