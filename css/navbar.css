@@ -1,11 +1,3 @@
-nav {
-  display: flex;
-  flex-direction: row;
-  width: auto;
-  height: 87px;
-  background-color: brown;
-}
-
 nav .logo {
   display: flexbox;
   font-size: 41.8px;
@@ -22,14 +14,34 @@ nav .logo {
 nav .searchForm {
   height: 25px;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   background-color: rgba(255, 255, 255, 0.5);
   background-image: url(../img/search.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 20px auto;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(128, 0, 128, 1);
   text-align: left;
   margin: 35px 20px 0 0;
+  padding-left: 10px;
+  outline: none;
+  transition-property: box-shadow;
+  transition: 1s;
+}
+
+nav .searchForm:hover {
+  box-shadow: 3px 3px 3px rgb(191, 64, 191);
+}
+
+@media (max-width: 375px) {
+  nav .logo {
+    font-size: 25px;
+    padding: 20px 0 0 20px;
+  }
+
+  nav .searchForm {
+    width: 130px;
+    margin: 25px 35px 0 0;
+  }
 }
